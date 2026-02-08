@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/loreweaver.iml" filepath="$PROJECT_DIR$/loreweaver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/loreweaver_android.iml" filepath="$PROJECT_DIR$/android/loreweaver_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lore_app.iml" filepath="$PROJECT_DIR$/lore_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/lore_app_android.iml" filepath="$PROJECT_DIR$/android/lore_app_android.iml" />
     </modules>
   </component>
 </project>

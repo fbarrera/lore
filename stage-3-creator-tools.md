@@ -50,7 +50,7 @@ Build comprehensive tools for creators to design stories and characters with det
 
 ## Dependencies
 - Stage 1: Foundation & Setup (authentication and basic storage)
-- Stage 2: Core AI Engine (for AI-assisted creation)
+- Stage 2: Core AI Engine (for AI-assisted creation and Firestore RAG)
 
 ## Estimated Effort
 - Character creation UI: 8-10 hours

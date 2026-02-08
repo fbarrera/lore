@@ -1,10 +1,13 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:loreweaver/main.dart';
+import 'package:lore_app/main.dart';
 
 void main() {
-  testWidgets('Smoke test', (WidgetTester tester) async {
-    // Basic test to ensure app can be pumped
-    // Since it requires Firebase, we might need to mock it for a real test
-    // For now, we just fix the class name error
+  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+    // Build our app and trigger a frame.
+    await tester.pumpWidget(const LoreApp());
+
+    // Verify that our counter starts at 0.
+    expect(find.text('Lore Keeper'), findsOneWidget);
   });
 }

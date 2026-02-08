@@ -65,9 +65,9 @@ Build the complete user interface with accessibility, responsiveness, and immers
 
 ## Dependencies
 - Stage 1: Foundation & Setup (Flutter project structure)
-- Stage 2: Core AI Engine (AI integration)
+- Stage 2: Core AI Engine (AI integration and Firestore RAG)
 - Stage 3: Creator Tools (character data)
-- Stage 4: RAG Memory (progression data)
+- Stage 4: RAG Memory (progression data and advanced Firestore retrieval)
 
 ## Estimated Effort
 - Core chat UI: 8-10 hours

@@ -25,15 +25,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -48,7 +42,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyAPKvwXKMRiagic3qCtqlOKZdFIqbtVNPI',
-    appId: '1:496534288133:web:51492ade13e3545252a96c',
+    appId: '1:496534288133:web:4091cb7471af641a52a96c',
     messagingSenderId: '496534288133',
     projectId: 'loreweaver-736ac',
     authDomain: 'loreweaver-736ac.firebaseapp.com',
@@ -57,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyA-a-mdivPJ4AYBJSdKMp68HO1C9O4_Pqo',
-    appId: '1:496534288133:android:dfc2beb0171ce3bc52a96c',
+    appId: '1:496534288133:android:76db511c4aedb93e52a96c',
     messagingSenderId: '496534288133',
     projectId: 'loreweaver-736ac',
     storageBucket: 'loreweaver-736ac.firebasestorage.app',
@@ -65,10 +59,28 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCvwiXYddP6JhxBOGbbrxvshCw3sQxVPyU',
-    appId: '1:496534288133:ios:9a3d0db45ec2bedb52a96c',
+    appId: '1:496534288133:ios:304a4a6ae11f672752a96c',
     messagingSenderId: '496534288133',
     projectId: 'loreweaver-736ac',
     storageBucket: 'loreweaver-736ac.firebasestorage.app',
-    iosBundleId: 'com.loreweaver.loreweaver',
+    iosBundleId: 'com.example.loreApp',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyCvwiXYddP6JhxBOGbbrxvshCw3sQxVPyU',
+    appId: '1:496534288133:ios:366e508ccc8b90fe52a96c',
+    messagingSenderId: '496534288133',
+    projectId: 'loreweaver-736ac',
+    storageBucket: 'loreweaver-736ac.firebasestorage.app',
+    iosBundleId: 'com.franciscobarrera.lore',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyAPKvwXKMRiagic3qCtqlOKZdFIqbtVNPI',
+    appId: '1:496534288133:web:e0c34fdbc2dda22852a96c',
+    messagingSenderId: '496534288133',
+    projectId: 'loreweaver-736ac',
+    authDomain: 'loreweaver-736ac.firebaseapp.com',
+    storageBucket: 'loreweaver-736ac.firebasestorage.app',
   );
 }

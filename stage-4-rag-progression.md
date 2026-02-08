@@ -1,22 +1,22 @@
 # Stage 4: Advanced RAG & Character Progression
 
 ## Overview
-Enhance the RAG system for sophisticated character development and story continuity.
+Enhance the Firestore-based RAG system for sophisticated character development and story continuity.
 
 ## Objectives
-- Implement advanced character state tracking
+- Implement advanced character state tracking using Firestore Vector Search
 - Build seamless user-character engagement
 - Create organic skill progression mechanics
 
 ## Deliverables
-- Advanced RAG for character relationships and development
+- Advanced Firestore RAG for character relationships and development
 - Skill usage and advancement during storytelling
 - Progression visualization and tracking
 - State synchronization across sessions
 
 ## Advanced RAG Features
 ### Character State Management
-- Multi-dimensional character embeddings (skills, relationships, development)
+- Multi-dimensional character embeddings in Firestore (skills, relationships, development)
 - Contextual retrieval based on current story state
 - Relationship evolution tracking between characters
 
@@ -46,7 +46,7 @@ Enhance the RAG system for sophisticated character development and story continu
 6. Test complex character development scenarios
 
 ## Dependencies
-- Stage 2: Core AI Engine (basic RAG system)
+- Stage 2: Core AI Engine (basic Firestore RAG system)
 - Stage 3: Creator Tools (character definitions)
 
 ## Estimated Effort
